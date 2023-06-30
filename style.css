@@ -64,6 +64,7 @@ a:visited {
   border-radius: 5px;
   padding: 1.5 2.25rem;
   margin-bottom: 1.75rem;
+  
   cursor: pointer;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -71,9 +72,11 @@ a:visited {
 }
 
 .workout--running {
+    padding-left: 3px;
   border-left: 5px solid var(--color-brand--2);
 }
 .workout--cycling {
+    padding-left: 3px;
   border-left: 5px solid var(--color-brand--1);
 }
 
@@ -175,9 +178,12 @@ form__input:focus {
   background-color: var(--color-dark--1);
 }
 
-.leaflet-popup.leaflet-popup-content-wrapper {
+.leaflet-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--2);
 }
 .cycling-popup .leaflet-popup-content-wrapper {
   border-left: 5px solid var(--color-brand--1);
+}
+.running-popup .leaflet-popup-content-wrapper {
+  border-left: 5px solid var(--color-brand--2);
 }
