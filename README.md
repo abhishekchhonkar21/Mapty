@@ -2,13 +2,13 @@
 
 Mapty is a web application that allows users to mark their workout locations on a map. The application utilizes the Leaflet API to access maps and provides the option to track either running or cycling workouts. Users can click on the map to specify the type of workout they performed at a particular location.
 
-##Screenshot
+## Screenshot
 
 
 <img width="1440" alt="Screenshot 2023-07-02 at 8 14 02 PM" src="https://github.com/abhishekchhonkar21/Mapty/assets/95516886/c4ddbab9-9de7-40f7-8819-a6b986c259ae">
 
 
-##Try yourself
+## Try yourself
 
 
 https://mapty-byabhishek.netlify.app
